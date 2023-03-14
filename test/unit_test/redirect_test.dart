@@ -16,4 +16,10 @@ void main() {
 
     expect(result, 'CreateUserPage');
   });
+
+  test('!をつけるとtrue、falseが反転する', () {
+    final metaData = false;
+    // !つけると、false->trueに逆転してなる
+    assert(!metaData == true);
+  });
 }
