@@ -1,4 +1,4 @@
-// ignore_for_file: unused_import, unused_local_variable
+// ignore_for_file: unused_import, unused_local_variable, prefer_const_declarations
 import 'dart:math';
 
 import 'package:flutter_test/flutter_test.dart';
