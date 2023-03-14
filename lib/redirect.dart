@@ -1,6 +1,6 @@
 class RouterTest {
   static isAuthState() {
-    final isAuth = false;
+    final isAuth = true;
     if (!isAuth) {
       return 'HomePage';
     } else {
