@@ -11,4 +11,15 @@ class RouterTest {
       return 'LoginPage';
     }
   }
+
+  static isUser() {
+    final isUserState = null != null;
+
+    // ignore: dead_code
+    if (isUserState) {
+      return 'ProfilePage';
+    } else {
+      return 'CreateUserPage';
+    }
+  }
 }
